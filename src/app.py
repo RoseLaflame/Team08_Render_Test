@@ -24,7 +24,7 @@ import pandas as pd
 
 import dash
 import dash_bootstrap_components as dbc
-from dash import Input, Output, dcc, html
+from dash import Input, Output, dcc, html, Dash
 
 import json
 import preprocess
@@ -44,6 +44,7 @@ fig_timeline = get_general_timeline(df_tl)
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.JOURNAL])
+#app = Dash(__name__)
 server = app.server
 app.title = "project session INF8808"
 

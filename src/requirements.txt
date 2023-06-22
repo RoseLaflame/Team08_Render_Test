@@ -20,14 +20,14 @@ dash-html-components==2.0.0
     # via dash
 dash-table==5.0.0
     # via dash
-flask==2.2.1
+flask==2.3.2
     # via
     #   dash
     #   flask-compress
     #   flask-failsafe
-flask-compress==1.13
+flask-compress
     # via dash
-flask-failsafe==0.2
+flask-failsafe
     # via -r requirements.windows.in
 importlib-metadata==5.0.0
     # via flask
